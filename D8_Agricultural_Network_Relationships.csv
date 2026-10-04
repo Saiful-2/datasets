@@ -1,0 +1,17 @@
+Source,Target,Relationship,Weight
+Rainfall,Rice,climate_association,0.82
+Temperature,Rice,climate_association,0.61
+Nitrogen,Rice,management_association,0.78
+Irrigation,Rice,management_association,0.85
+Soil_pH,Rice,soil_association,0.52
+Organic_Matter,Rice,soil_association,0.67
+Pest_Pressure,Rice,biotic_association,0.48
+Rice,Yield,outcome_link,0.91
+Wheat,Yield,outcome_link,0.73
+Maize,Yield,outcome_link,0.77
+Yield,Production,aggregation_link,0.89
+Rainfall,Wheat,climate_association,0.55
+Temperature,Maize,climate_association,0.69
+Nitrogen,Wheat,management_association,0.71
+Irrigation,Maize,management_association,0.74
+Soil_pH,Yield,soil_association,0.43
